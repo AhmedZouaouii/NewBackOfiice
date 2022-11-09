@@ -1,13 +1,14 @@
 
+<div class="content-wrapper">
+  <div class="content">
 
-<section id="contact" class="flex">
   
-    <div class="container form-group col-md-13 " data-aos="fade-up">
+   
      
       <div class="form-group " style="background-color: #3f51b5; " ><br/>
-      <h3> <p class="text-light text-center" >Ajouter un article scientifique</p></h3><br/>
+      <h3> <p class="text-light text-center" >{{title}}</p></h3><br/>
         
-    </div>
+   
    
 <form #f="ngForm" style="background-color: #fafafa;" >
     <div class="row" >
@@ -38,7 +39,7 @@
           <input   type="text"  [(ngModel)]="article.description" name="Description" required placeholder="Description" class="form-control" #c="ngModel">
         </div>
     
-        <div class=" myDate">
+        <div class=" myDate col-md-6">
           <label for="inputAddress">Date :</label> <br/>
           <input type="date" [(ngModel)]="article.datePublication"   style="width:636px; height: 38px;" name="date">
       </div>
@@ -54,7 +55,7 @@
    
   <div>
     <label>Paragraphe 1 :</label>
-    <textarea #txt="ngModel" class="form-group col-md-6" name="question" cols="159" rows="8" placeholder="Paragraphe 1 * " [(ngModel)]="article.premiereParagraphe" required  #m="ngModel"></textarea>
+    <textarea #txt="ngModel" class="form-group col-md-12" name="question" cols="159" rows="8" placeholder="Paragraphe 1 * " [(ngModel)]="article.premiereParagraphe" required  #m="ngModel"></textarea>
   </div>
   <div  *ngIf="m.invalid && m.touched" >
     <div *ngIf="m.hasError('required')"><p style="color: red;">Ce champs est obligatoire *</p></div>
@@ -100,4 +101,4 @@
 </div>
 
 
-</section><!-- End Contact Section --><br/>
+<!-- End Contact Section --><br/></div></div>

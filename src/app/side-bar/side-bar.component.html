@@ -1,5 +1,8 @@
  <!-- Main Sidebar Container -->
- <aside class="main-sidebar  elevation-4 flex" style="background-color: #081430;">
+ 
+ <aside class="main-sidebar " style="background-color: #081430;">
+ 
+ 
   <!-- Brand Logo -->
   <div class="brand-link">
     <img src="assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-5" style="opacity: .8">
@@ -17,7 +20,7 @@
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
-      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+      <ul class="nav nav-pills nav-sidebar flex-column"  data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
         <li class="nav-item menu-open">
@@ -155,7 +158,12 @@
                 <p style="color:aliceblue">Listes des articles</p>
               </a>
             </li>
-           
+            <li class="nav-item">
+              <a routerLink="statistics" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p style="color:aliceblue">Statistiques</p>
+              </a>
+            </li>
             
       
           </ul>
@@ -168,5 +176,7 @@
     </nav>
     <!-- /.sidebar-menu -->
   </div>
+
     <!-- /.sidebar -->
 </aside>
+ 

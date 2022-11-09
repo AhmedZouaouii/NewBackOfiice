@@ -1,12 +1,16 @@
-<section>
-  <div class="container">
+
+<div class="content-wrapper">
+  <div class="content">
+
     <div class="row pt-1">
       <div class="col-12">
-        <h3 class="text-uppercase border-bottom mb-4">Listes des articles</h3>
+        <h1 class="text-uppercase border-bottom mb-4">Listes des articles</h1>
         <div style="display: inline;" >
    
-          <input type="text" style="border:none ; height : 46px ;width:400px; margin-right:720px ; margin-left:18px" placeholder="Trouver un article : id titre ..." > 
-          <button  class="btn btn-warning "[routerLink]="'/statistics'" >Statistiques</button>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          </form>
       </div><br>
       <hr>
         <div class="row col-12" >
@@ -20,7 +24,8 @@
                 <div style="display: inline; position: absolute; bottom: 5px; ">
                 <a href="#" class="btn btn-success mt-auto align-self-start" style="margin-left: 5px;" [routerLink]="['/update',art.id]">Modifier</a>&nbsp;
                 <button  class="btn btn-danger " (click)="deleteArticle(art.id)">Suprimer</button>&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a routerLink="" ><strong>Détails...</strong></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"  routerLink="['/detail',art.id]"><strong>Détails...</strong></a>
+                
               </div>
               
               </div>
@@ -28,12 +33,11 @@
           </div>
       </div>
     </div>
-    
+  </div>
   </div><br>
 
    
      
       
     </div>
-    <section>
-
+ 

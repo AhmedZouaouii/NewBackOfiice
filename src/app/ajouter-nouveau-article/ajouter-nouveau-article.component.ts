@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Article } from '../models/articleScientifique';
 import { Categorie } from '../models/categorie';
 import { ArticleServiceService } from '../services/article-service.service';
@@ -17,18 +18,26 @@ categorieTable :Categorie[];
 categorieSelected :String ;
 dateSelected:Date ;
 dt:Date;
+title:string;
 
+  constructor(private articleService : ArticleServiceService,
 
-  constructor(private articleService : ArticleServiceService) { }
+    private currentRoute: ActivatedRoute,routes:Router) { }
 
   ngOnInit(): void {
-    this.article=new Article();
-    this.categorie=new Categorie();
-    this.article.categorie=this.categorieSelected;
-    this.categorieTable = [
-     {id:1,titre:"Science",domaine:"Nature",description:"earth"},
-     {id:2,titre:"Info",domaine:"It",description:"Computer"},
-    ];
+  
+    let id= this.currentRoute.snapshot.params['id'];
+    console.log(id);
+    if(id==null){
+      //add a new Product
+      this.article=new Article();
+    this.title='Ajouter un article scientifique'}
+    else{
+      //update
+      this.title='Modifier article : '+id;
+      this.articleService.getById(id).subscribe(
+        (data)=>this.article=data
+        )};
   
   }
   save():void{

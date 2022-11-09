@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule ,ViewChild} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -17,11 +17,7 @@ import { TestsComponent } from './tests/tests.component';
 import { ListeDesArticlesComponent } from './liste-des-articles/liste-des-articles.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatInputModule} from '@angular/material/input';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatSelectModule} from '@angular/material/select';
+
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { DetailArticleComponent } from './detail-article/detail-article.component';
 import { StatisticsComponent } from './statistics/statistics.component';
@@ -49,11 +45,6 @@ import { StatisticsComponent } from './statistics/statistics.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatIconModule,
-    MatInputModule,
-    MatButtonModule,
-    MatFormFieldModule,
-    MatSelectModule,
     ReactiveFormsModule
   ],
   providers: [ArticleServiceService],

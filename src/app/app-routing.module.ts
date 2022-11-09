@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AjouterNouveauArticleComponent } from './ajouter-nouveau-article/ajouter-nouveau-article.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { ContentComponent } from './content/content.component';
+import { DetailArticleComponent } from './detail-article/detail-article.component';
 import { ListeDesArticlesComponent } from './liste-des-articles/liste-des-articles.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { TestsComponent } from './tests/tests.component';
@@ -17,8 +18,8 @@ const routes: Routes = [
  { path: 'categorie', component: CategoriesComponent},
  { path: 'tests', component: TestsComponent},
  { path: 'listeArticles', component: ListeDesArticlesComponent},
- { path: 'statitics/:1', component: StatisticsComponent},
-
+ { path: 'statistics', component: StatisticsComponent},
+ { path: 'detail', component: DetailArticleComponent},
 
 ];
 
