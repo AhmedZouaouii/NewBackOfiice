@@ -21,6 +21,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { DetailArticleComponent } from './detail-article/detail-article.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { HomePageComponent } from './classroom/home-page/home-page.component';
+import { CourPageComponent } from './classroom/cour-page/cour-page.component';
+import { FluxPageComponent } from './classroom/flux-page/flux-page.component';
+import { UmailPageComponent } from './classroom/umail-page/umail-page.component';
+import { ClassePageComponent } from './classroom/classe-page/classe-page.component';
+import { PersonnePageComponent } from './classroom/personne-page/personne-page.component';
+import { CorbeillePageComponent } from './classroom/corbeille-page/corbeille-page.component';
+import { CalendarModule, DatePickerModule, TimePickerModule, DateRangePickerModule, DateTimePickerModule } from '@syncfusion/ej2-angular-calendars';
+import { ClubComponent } from './club/club.component';
+import { AjouterClubComponent } from './ajouter-club/ajouter-club.component';
+import { ListeDesClubsComponent } from './liste-des-clubs/liste-des-clubs.component';
+import { DetailClubComponent } from './detail-club/detail-club.component';
+import { InscriptionClubComponent } from './inscription-club/inscription-club.component';
+import { LivreComponent } from './livre/livre.component';
+import { AjouterLivreComponent } from './ajouter-livre/ajouter-livre.component';
+import { ListesDesLivresComponent } from './liste-des-livres/listes-des-livres.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +49,27 @@ import { StatisticsComponent } from './statistics/statistics.component';
     TestsComponent,
     ListeDesArticlesComponent,
     DetailArticleComponent,
-    StatisticsComponent
-
+    StatisticsComponent,
+    TopBarComponent,
+    SideBarComponent,
+    FooterComponent,
+    ContentComponent,
+    AjouterNouveauArticleComponent,
+    HomePageComponent,
+    CourPageComponent,
+    FluxPageComponent,
+    UmailPageComponent,
+    ClassePageComponent,
+    PersonnePageComponent,
+    CorbeillePageComponent,
+    ClubComponent,
+    AjouterClubComponent,
+    ListeDesClubsComponent,
+    DetailClubComponent,
+    InscriptionClubComponent,
+    LivreComponent,
+    AjouterLivreComponent,
+    ListesDesLivresComponent
     
     
    
@@ -45,7 +80,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CalendarModule, DatePickerModule, DateRangePickerModule, DateTimePickerModule
   ],
   providers: [ArticleServiceService],
   bootstrap: [AppComponent]

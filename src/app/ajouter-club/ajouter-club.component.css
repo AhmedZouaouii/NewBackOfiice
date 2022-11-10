@@ -1,0 +1,31 @@
+input.ng-invalid.ng-touched {
+    border: red 1px solid;
+}
+
+form-control.ng-invalid.ng-touched {
+    border: red 1px solid;
+}
+.text-error.ng-invalid.ng-touched {
+    border: 1px solid #f44336;
+}
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  
+  button{
+    margin: 2px;
+  }
+  .text-error.ng-invalid.ng-touched {
+        border: 1px solid #f44336;
+    }
+    .text-error2.ng-invalid.ng-touched {
+        border: 1px solid #f44336;
+    }
+   .myDate{
+      width: 300px;
+    }

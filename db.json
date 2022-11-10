@@ -7,20 +7,9 @@
       "deusciemeParagraphe": "The journals Nature and Science are where some of the highest quality research is showcased to the world.\n\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.",
       "description": "The journals Nature and Science are where some of the highest quality research is showcased to the world.",
       "ecrivain": "UWA researchers",
-      "imageArticle": "https://www.pwc.com.au/digitalpulse/2017/09/using-science-fiction-to-explore-business-innovation.jpg",
+      "imageArticle": "https://s26162.pcdn.co/wp-content/uploads/2020/09/sci-fi.jpg",
       "datePublication": "2022-11-05",
-      "id": 1
-    },
-    {
-      "categorie": "Science",
-      "premiereParagraphe": "The journals Nature and Science are where some of the highest quality research is showcased to the world.\n\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.",
-      "titre": "The journals Nature and Science are where some of the highest quality research is showcased to the world.",
-      "deusciemeParagraphe": "The journals Nature and Science are where some of the highest quality research is showcased to the world.\n\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.",
-      "description": "The journals Nature and Science are where some of the highest quality research is showcased to the world.",
-      "ecrivain": "UWA researchers",
-      "imageArticle": "https://ideas.ted.com/wp-content/uploads/sites/3/2014/06/istock_000018122000_medium.jpg?resize=750,450",
-      "datePublication": "2022-11-05",
-      "id": 2
+      "id": 3
     },
     {
       "categorie": "Science",
@@ -32,7 +21,82 @@
       "ecrivain": "The journals Nature",
       "imageArticle": "https://vivreaulycee.fr/wp-content/uploads/2019/02/robot-2256814_1280-1200x480.jpg",
       "id": 4
+    },
+    {
+      "categorie": "Science",
+      "titre": "Science",
+      "description": "The journals Nature and Science are where some of the highest quality research is showcased to the world.",
+      "datePublication": "2022-11-09",
+      "premiereParagraphe": "The journals Nature and Science are where some of the highest quality research is showcased to the world.\\n\\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.\",\n    \"titre\": \"The journals Nature and Science are where some of the highest quality research is showcased to the world.\",The journals Nature and Science are where some of the highest quality research is showcased to the world.\\n\\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.\",\n    \"titre\": \"The journals Nature and Science are where some of the highest quality research is showcased to the world.\",",
+      "deusciemeParagraphe": "The journals Nature and Science are where some of the highest quality research is showcased to the world.\\n\\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.\",\n    \"titre\": \"The journals Nature and Science are where some of the highest quality research is showcased to the world.\",The journals Nature and Science are where some of the highest quality research is showcased to the world.\\n\\nHere, UWA researchers promote research excellence through their valuable contribution to these highly prestigious journals.\\nFirst published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.\",\n    \"titre\": \"The journals Nature and Science are where some of the highest quality research is showcased to the world.\",",
+      "ecrivain": "The journals Nature",
+      "imageArticle": "https://images.newscientist.com/wp-content/uploads/2022/07/20203605/SEI_1144606821.jpg?width=778",
+      "id": 5
     }
   ],
-  "Categories": []
+  "Categories": [],
+
+  "Livre": [     {"idLivre":0,
+  "titre":"Treasure hunting" ,
+  "auteur":"Ahmoud" ,
+  "prix":54000 ,
+  "datePublication":"1998-01-03"},
+  {"idLivre":1,
+  "titre":"Treasure hunting" ,
+  "auteur":"Ahmoud" ,
+  "prix":54000 ,
+  "datePublication":"1998-01-03"},
+  {"idLivre":2,
+  "titre":"Treasure Exporting" ,
+  "auteur":"Ahmed" ,
+  "prix":50000 ,
+  "datePublication":"2018-06-08"}
+
+
+],
+
+
+
+  "Club": [
+    {
+      "nomClub": "chess",
+      "nbrMembres": 10,
+      "activite": "chess",
+      "budget": 51000,
+      "dateFondation": "1998-01-03",
+      "id": 1
+    },
+    {
+      "nomClub": "Gamer4Life",
+      "nbrMembres": 20,
+      "activite": "gaming",
+      "budget": 1000,
+      "dateFondation": "2010-03-18",
+      "id": 2
+    },
+    {
+      "nomClub": "Ya7",
+      "nbrMembres": 4,
+      "activite": "!!!",
+      "budget": 56000,
+      "dateFondation": "2012-03-15",
+      "id": 3
+    },
+    {
+      "nomClub": "test",
+      "nbrMembres": 23,
+      "activite": "test",
+      "budget": 42000,
+      "dateFondation": "2017-07-05",
+      "id": 4
+    },
+    {
+      "nomClub": "sdsdqsdqs",
+      "nbrMembres": 26,
+      "budget": 66000,
+      "activite": "qsds",
+      "dateFondation": "2013-03-13",
+      "id": 6
+    }
+  ]
 }

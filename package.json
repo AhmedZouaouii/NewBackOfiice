@@ -19,6 +19,8 @@
     "@angular/material": "^13.3.9",
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
+    "@syncfusion/ej2-angular-calendars": "^20.3.56",
+    
     "@angular/router": "~13.3.0",
     "bootstrap": "^5.2.2",
     "chart.js": "^3.9.1",
